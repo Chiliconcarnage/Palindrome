@@ -23,19 +23,25 @@ reverse : le premier argument est le palindrome résultat (p), et non l’entier
 EXEMPLE
 
 ./palindrome 4782 toto
+
 argument invalide
 
 ./palindrome 4782 10
+
 4782 donne 46464 en 3 itération(s) (en base 10)
 
 ./palindrome 64 2
+
 64 donne 65 en 1 itération(s) (en base 2)
 
 ./palindrome 363 10 reverse
+
 3 donne 363 en 6 itération(s) (en base 10)
 
 ./palindrome 363 10 reverse "<=3"
+
 15 donne 363 en 3 itération(s) (en base 10)
 
 ./palindrome 363 10 reverse ">14"
+
 pas de solution
